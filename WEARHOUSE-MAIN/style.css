@@ -1,0 +1,108 @@
+/* style.css - Tùy chỉnh giao diện */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    /* Màu nền nhẹ */
+    color: #333;
+}
+
+.navbar {
+    background-color: #007bff !important;
+    /* Màu xanh Bootstrap */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+    /* Màu vàng khi hover */
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    /* Hiệu ứng hover */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    /* Card nổi lên khi hover */
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    /* Ảnh fit vừa card */
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+
+/* Tùy chỉnh hamburger menu (nếu cần thêm) */
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255,255,255,0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #f8f9fa;
+    color: #333;
+    font-size: 15px;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.outfit-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
